@@ -183,29 +183,29 @@
                 {{-- Venue 1: Billy Jaya Hotel --}}
                 <div class="bg-gray-50 p-6 rounded-2xl shadow-xl overflow-hidden border border-gray-200">
                     <div class="h-64 mb-4 rounded-xl overflow-hidden">
-                        <img src="https://placehold.co/800x400/074885/ffffff?text=Billy+Jaya+Hotel" alt="Billy Jaya Hotel" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/BJH.png') }}" alt="Billy Jaya Hotel" class="w-full h-full object-cover hover:scale-105 transition duration-500">
                     </div>
                     <h3 class="text-3xl font-bold text-apindo-blue mb-2">Billy Jaya Hotel</h3>
-                    <p class="text-gray-600 mb-4">Jl. Utama Kota, Papua Barat. (Hari ke-1, 11 Desember 2025)</p>
-                    <a href="#" class="inline-flex items-center text-apindo-blue hover:text-apindo-dark font-medium transition duration-300">
+                    <p class="text-gray-600 mb-4">Jl. Merdeka, Padarni, Kec. Manokwari Bar., Kabupaten Manokwari, Papua Bar. 98312 (Hari ke-1, 11 Desember 2025)</p>
+                    <a href="https://maps.app.goo.gl/8g4qY6PzcvVjC4aX8" target="_blank" class="inline-flex items-center text-white bg-apindo-blue hover:bg-apindo-dark px-4 py-2 rounded-lg font-medium transition duration-300">
+                        <svg data-lucide="map-pin" class="w-4 h-4 mr-2"></svg>
                         Lihat di Google Maps
-                        <svg data-lucide="map-pin" class="w-4 h-4 ml-2"></svg>
                     </a>
-                    <p class="mt-4 text-sm text-gray-500">Venue utama untuk sesi sidang dan pembukaan.</p>
+                    <p class="mt-4 text-sm text-gray-500">Venue utama untuk sesi pembukaan dan sidang.</p>
                 </div>
 
                 {{-- Venue 2: Mansinam Beach Hotel --}}
                 <div class="bg-gray-50 p-6 rounded-2xl shadow-xl overflow-hidden border border-gray-200">
                     <div class="h-64 mb-4 rounded-xl overflow-hidden">
-                        <img src="https://placehold.co/800x400/0A58A7/ffffff?text=Mansinam+Beach+Hotel" alt="Mansinam Beach Hotel" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/MBH.png') }}" alt="Mansinam Beach Hotel" class="w-full h-full object-cover hover:scale-105 transition duration-500">
                     </div>
                     <h3 class="text-3xl font-bold text-apindo-blue mb-2">Mansinam Beach Hotel</h3>
-                    <p class="text-gray-600 mb-4">Jl. Pantai Indah, Dekat Pulau Mansinam. (Hari ke-2, 12 Desember 2025)</p>
-                    <a href="#" class="inline-flex items-center text-apindo-blue hover:text-apindo-dark font-medium transition duration-300">
+                    <p class="text-gray-600 mb-4">Jl. Pasir Putih No.7, Pasir Putih, Kec. Manokwari Tim., Kabupaten Manokwari, Papua Bar. 98313 (Hari ke-2, 12 Desember 2025)</p>
+                    <a href="https://maps.app.goo.gl/K8vMUyDTvei42kmA8" target="_blank" class="inline-flex items-center text-white bg-apindo-blue hover:bg-apindo-dark px-4 py-2 rounded-lg font-medium transition duration-300">
+                        <svg data-lucide="map-pin" class="w-4 h-4 mr-2"></svg>
                         Lihat di Google Maps
-                        <svg data-lucide="map-pin" class="w-4 h-4 ml-2"></svg>
                     </a>
-                    <p class="mt-4 text-sm text-gray-500">Venue untuk pemilihan ketua baru dan Gala Dinner penutupan.</p>
+                    <p class="mt-4 text-sm text-gray-500">Venue untuk pengukuhan pengusus DPP dan penutupan MUSPROV APINDO 2025.</p>
                 </div>
             </div>
         </div>
