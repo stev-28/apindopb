@@ -5,4 +5,5 @@
     </div>
 </footer>
 
+
 <?php /**PATH C:\Users\pusda\Documents\StevieWeb\APINDOPB\resources\views/partials/footer.blade.php ENDPATH**/ ?>

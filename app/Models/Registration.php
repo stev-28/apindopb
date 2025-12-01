@@ -26,6 +26,7 @@ class Registration extends Model
         'kabupaten',
         'email',
         'telepon',
+        'surat_mandat',
     ];
 
     /**
